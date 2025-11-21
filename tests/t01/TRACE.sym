@@ -1,0 +1,4 @@
+H -2147483598 "PAPI_TOT_INS [Instr completed]"
+H -2147483589 "PAPI_TOT_CYC [Total cycles]"
+H -2147483593 "PAPI_BR_INS [Branches]"
+H -2147483602 "PAPI_BR_MSP [Cond br mspredictd]"

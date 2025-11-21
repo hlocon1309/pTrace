@@ -1,0 +1,70 @@
+Extrae: Error! Hardware counter PAPI_L1_DCM (0x80000000) is not available. Check set 1.
+Extrae: Error! Hardware counter PAPI_L2_DCM (0x80000002) is not available. Check set 1.
+Extrae: Error! Hardware counter PAPI_L3_TCM (0x80000008) is not available. Check set 1.
+Extrae: Cannot parse HWC RESOURCE_STALLS in set 1, skipping
+Extrae: Error! Cannot query information for hardware counter RESOURCE_STALLS (0x00000000). Check set 1.
+Extrae: Error! Hardware counter PAPI_VEC_SP (0x80000069) is not available. Check set 2.
+Extrae: Error! Hardware counter PAPI_SR_INS (0x80000036) is not available. Check set 2.
+Extrae: Error! Hardware counter PAPI_LD_INS (0x80000035) is not available. Check set 2.
+Extrae: Error! Hardware counter PAPI_FP_INS (0x80000034) is not available. Check set 2.
+*** The MPI_Barrier() function was called before MPI_INIT was invoked.
+*** This is disallowed by the MPI standard.
+*** Your MPI job will now abort.
+[rn1:26605] Local abort before MPI_INIT completed completed successfully, but am not able to aggregate error messages, and not able to guarantee that all other processes were killed!
+environment: línea 17: Welcome: no se encontró la orden
+environment: eval: línea 18: error sintáctico cerca del elemento inesperado `('
+environment: eval: línea 18: `Extrae: Parsing the configuration file (./extrae.xml) begins'
+Extrae: Error! Hardware counter PAPI_L1_DCM (0x80000000) is not available. Check set 1.
+Extrae: Error! Hardware counter PAPI_L2_DCM (0x80000002) is not available. Check set 1.
+Extrae: Error! Hardware counter PAPI_L3_TCM (0x80000008) is not available. Check set 1.
+Extrae: Cannot parse HWC RESOURCE_STALLS in set 1, skipping
+Extrae: Error! Cannot query information for hardware counter RESOURCE_STALLS (0x00000000). Check set 1.
+Extrae: Error! Hardware counter PAPI_VEC_SP (0x80000069) is not available. Check set 2.
+Extrae: Error! Hardware counter PAPI_SR_INS (0x80000036) is not available. Check set 2.
+Extrae: Error! Hardware counter PAPI_LD_INS (0x80000035) is not available. Check set 2.
+Extrae: Error! Hardware counter PAPI_FP_INS (0x80000034) is not available. Check set 2.
+*** The MPI_Barrier() function was called before MPI_INIT was invoked.
+*** This is disallowed by the MPI standard.
+*** Your MPI job will now abort.
+[rn1:26614] Local abort before MPI_INIT completed completed successfully, but am not able to aggregate error messages, and not able to guarantee that all other processes were killed!
+environment: línea 17: Welcome: no se encontró la orden
+environment: eval: línea 18: error sintáctico cerca del elemento inesperado `('
+environment: eval: línea 18: `Extrae: Parsing the configuration file (./extrae.xml) begins'
+Extrae: Error! Hardware counter PAPI_L1_DCM (0x80000000) is not available. Check set 1.
+Extrae: Error! Hardware counter PAPI_L2_DCM (0x80000002) is not available. Check set 1.
+Extrae: Error! Hardware counter PAPI_L3_TCM (0x80000008) is not available. Check set 1.
+Extrae: Cannot parse HWC RESOURCE_STALLS in set 1, skipping
+Extrae: Error! Cannot query information for hardware counter RESOURCE_STALLS (0x00000000). Check set 1.
+Extrae: Error! Hardware counter PAPI_VEC_SP (0x80000069) is not available. Check set 2.
+Extrae: Error! Hardware counter PAPI_SR_INS (0x80000036) is not available. Check set 2.
+Extrae: Error! Hardware counter PAPI_LD_INS (0x80000035) is not available. Check set 2.
+Extrae: Error! Hardware counter PAPI_FP_INS (0x80000034) is not available. Check set 2.
+*** The MPI_Barrier() function was called before MPI_INIT was invoked.
+*** This is disallowed by the MPI standard.
+*** Your MPI job will now abort.
+[rn1:26620] Local abort before MPI_INIT completed completed successfully, but am not able to aggregate error messages, and not able to guarantee that all other processes were killed!
+environment: línea 17: Welcome: no se encontró la orden
+environment: eval: línea 18: error sintáctico cerca del elemento inesperado `('
+environment: eval: línea 18: `Extrae: Parsing the configuration file (./extrae.xml) begins'
+Extrae: Error! Hardware counter PAPI_L1_DCM (0x80000000) is not available. Check set 1.
+Extrae: Error! Hardware counter PAPI_L2_DCM (0x80000002) is not available. Check set 1.
+Extrae: Error! Hardware counter PAPI_L3_TCM (0x80000008) is not available. Check set 1.
+Extrae: Cannot parse HWC RESOURCE_STALLS in set 1, skipping
+Extrae: Error! Cannot query information for hardware counter RESOURCE_STALLS (0x00000000). Check set 1.
+Extrae: Error! Hardware counter PAPI_VEC_SP (0x80000069) is not available. Check set 2.
+Extrae: Error! Hardware counter PAPI_SR_INS (0x80000036) is not available. Check set 2.
+Extrae: Error! Hardware counter PAPI_LD_INS (0x80000035) is not available. Check set 2.
+Extrae: Error! Hardware counter PAPI_FP_INS (0x80000034) is not available. Check set 2.
+Extrae: Error! Hardware counter PAPI_L1_DCM (0x80000000) is not available. Check set 1.
+Extrae: Error! Hardware counter PAPI_L2_DCM (0x80000002) is not available. Check set 1.
+Extrae: Error! Hardware counter PAPI_L3_TCM (0x80000008) is not available. Check set 1.
+Extrae: Cannot parse HWC RESOURCE_STALLS in set 1, skipping
+Extrae: Error! Cannot query information for hardware counter RESOURCE_STALLS (0x00000000). Check set 1.
+Extrae: Error! Hardware counter PAPI_VEC_SP (0x80000069) is not available. Check set 2.
+Extrae: Error! Hardware counter PAPI_SR_INS (0x80000036) is not available. Check set 2.
+Extrae: Error! Hardware counter PAPI_LD_INS (0x80000035) is not available. Check set 2.
+Extrae: Error! Hardware counter PAPI_FP_INS (0x80000034) is not available. Check set 2.
+*** The MPI_Barrier() function was called before MPI_INIT was invoked.
+*** This is disallowed by the MPI standard.
+*** Your MPI job will now abort.
+[rn1:26626] Local abort before MPI_INIT completed completed successfully, but am not able to aggregate error messages, and not able to guarantee that all other processes were killed!
