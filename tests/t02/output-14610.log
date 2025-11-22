@@ -1,0 +1,32 @@
+Welcome to Extrae 3.8.3
+Extrae: Parsing the configuration file (./extrae.xml) begins
+Extrae: Tracing package is located on @sub_PREFIXDIR@
+Extrae: Generating intermediate files for Paraver traces.
+Extrae: MPI routines will collect HW counters information.
+Extrae: Warning! <openmp> tag will be ignored. This library does not support OpenMP.
+Extrae: Tracing 3 level(s) of MPI callers: [ 1 2 3 ]
+Extrae: Warning! change-at-time time units not specified. Using seconds
+Extrae: PAPI domain set to ALL for HWC set 1
+Extrae: HWC set 1 contains following counters < PAPI_TOT_INS (0x80000032) PAPI_TOT_CYC (0x8000003b) PAPI_L1_DCM (0x80000000) PAPI_L2_DCM (0x80000002) PAPI_L3_TCM (0x80000008) PAPI_BR_INS (0x80000037) PAPI_BR_MSP (0x8000002e) RESOURCE_STALLS (0x4000002e) > - never changes
+Extrae: Warning! change-at-time time units not specified. Using seconds
+Extrae: PAPI domain set to ALL for HWC set 2
+Extrae: HWC set 2 contains following counters < PAPI_TOT_INS (0x80000032) PAPI_TOT_CYC (0x8000003b) PAPI_VEC_SP (0x80000069) PAPI_SR_INS (0x80000036) PAPI_LD_INS (0x80000035) > - never changes
+Extrae: Resource usage is disabled at flush buffer.
+Extrae: Memory usage is disabled at flush buffer.
+Extrae: Tracing buffer can hold 5000000 events
+Extrae: Circular buffer disabled.
+Extrae: Sampling buffers will be written at instrumentation points
+Extrae: Dynamic memory instrumentation is disabled.
+Extrae: Basic I/O memory instrumentation is disabled.
+Extrae: System calls instrumentation is disabled.
+Extrae: Parsing the configuration file (./extrae.xml) has ended
+Extrae: Intermediate traces will be stored in /mnt/beegfs/home/lokon/pTrace/tests/t02
+Extrae: Tracing mode is set to: Detail.
+Extrae: Successfully initiated with 1 tasks and 1 threads
+
+Extrae: Intermediate raw trace file created : /mnt/beegfs/home/lokon/pTrace/tests/t02/set-0/TRACE@cudanode1.0000002542000000000000.mpit
+Extrae: Intermediate raw sym file created : /mnt/beegfs/home/lokon/pTrace/tests/t02/set-0/TRACE@cudanode1.0000002542000000000000.sym
+Extrae: Deallocating memory.
+Extrae: Application has ended. Tracing has been terminated.
+Extrae: Proceeding with the merge of the intermediate tracefiles.
+Extrae: Waiting for all tasks to reach the checkpoint.
