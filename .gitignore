@@ -1,0 +1,14 @@
+# Object files
+*.o
+
+# Static libraries
+*.a
+
+# Shared libraries
+*.so
+
+# Executable without extension, one per tests
+tests/t03/mmatrix
+
+# Specific files
+tests/t03/timing_data.txt
