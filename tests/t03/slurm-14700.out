@@ -1,0 +1,21 @@
+
+Matrix A
+
+7 4 
+7 4 
+
+Matrix B
+
+7 4 
+8 3 
+
+Rows from 0 to 0 are allotted to process 1
+Rows from 1 to 1 are allotted to process 0.
+
+Process 1 sent task ouputs 81 to 40
+
+Result Matrix C = Matrix A * Matrix B:
+
+81	40	
+81	40	
+

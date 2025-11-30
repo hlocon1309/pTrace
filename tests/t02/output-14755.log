@@ -20,12 +20,12 @@ Extrae: Dynamic memory instrumentation is disabled.
 Extrae: Basic I/O memory instrumentation is disabled.
 Extrae: System calls instrumentation is disabled.
 Extrae: Parsing the configuration file (./extrae.xml) has ended
-Extrae: Intermediate traces will be stored in /mnt/beegfs/home/lokon/pTrace/tests/t03
+Extrae: Intermediate traces will be stored in /mnt/beegfs/home/lokon/pTrace/tests/t02
 Extrae: Tracing mode is set to: Detail.
 Extrae: Successfully initiated with 1 tasks and 1 threads
 
-Extrae: Intermediate raw trace file created : /mnt/beegfs/home/lokon/pTrace/tests/t03/set-0/TRACE@cudanode1.0000031043000000000000.mpit
-Extrae: Intermediate raw sym file created : /mnt/beegfs/home/lokon/pTrace/tests/t03/set-0/TRACE@cudanode1.0000031043000000000000.sym
+Extrae: Intermediate raw trace file created : /mnt/beegfs/home/lokon/pTrace/tests/t02/set-0/TRACE@cudanode1.0000011328000000000000.mpit
+Extrae: Intermediate raw sym file created : /mnt/beegfs/home/lokon/pTrace/tests/t02/set-0/TRACE@cudanode1.0000011328000000000000.sym
 Extrae: Deallocating memory.
 Extrae: Application has ended. Tracing has been terminated.
 Extrae: Proceeding with the merge of the intermediate tracefiles.

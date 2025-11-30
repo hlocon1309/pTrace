@@ -9,6 +9,10 @@
 #SBATCH --error=error-%j.err
 #SBATCH --time=00:10:00
 
+#module purge
+module load openmpi4/4.1.4
+module load extrae/3.8.3
+module load papi/6.0.0
 
 # Configure Extrae
 export EXTRAE_CONFIG_FILE=./extrae.xml
@@ -18,11 +22,6 @@ export EXTRAE_CONFIG_FILE=./extrae.xml
 export EXTRAE_PATH=/opt/ohpc/pub/libs/gnu12/openmpi4/extrae/3.8.3
 export LD_PRELOAD=${EXTRAE_PATH}/lib/libmpitrace.so    # C
 
-#module purge
-module load openmpi4/4.1.4
-module load extrae/3.8.3
-module load papi/6.0.0
-
 #TRACE_NAME=hellosh_t.prv
 
-mpirun -np 2 ./ex_01 -i 10 -s 65
+mpirun -np 2 ./ex_02 -i 10 -s 65

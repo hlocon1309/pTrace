@@ -85,6 +85,24 @@ STATES_COLOR
 
 
 EVENT_TYPE
+9   50000001    MPI Point-to-point
+VALUES
+2   MPI_Recv
+1   MPI_Send
+0   Outside MPI
+
+
+EVENT_TYPE
+9   50000003    MPI Other
+VALUES
+19   MPI_Comm_rank
+20   MPI_Comm_size
+32   MPI_Finalize
+31   MPI_Init
+0   Outside MPI
+
+
+EVENT_TYPE
 6    40000033    Executing CPU
 6    40000133    CPU-Event sampling interval
 
@@ -123,12 +141,8 @@ EVENT_TYPE
 EVENT_TYPE
 7  42000050 PAPI_TOT_INS [Instr completed]
 7  42000059 PAPI_TOT_CYC [Total cycles]
-7  42000000 PAPI_L1_DCM [L1D cache misses]
-7  42000002 PAPI_L2_DCM [L2D cache misses]
-7  42000008 PAPI_L3_TCM [L3 cache misses]
 7  42000055 PAPI_BR_INS [Branches]
 7  42000046 PAPI_BR_MSP [Cond br mspredictd]
-7  42001046 RESOURCE_STALLS [Cycles Allocation is stalled due to Resource Related reason]
 7  41999999 Active hardware counter set
 
 
@@ -169,25 +183,41 @@ GRADIENT_NAMES
 
 
 EVENT_TYPE
+0    70000001    Caller at level 1
+0    70000002    Caller at level 2
+0    70000003    Caller at level 3
+VALUES
+0   End
+1 Unresolved
+2 _NOT_Found
+3 _start
+
+
+EVENT_TYPE
+0    80000001    Caller line at level 1
+0    80000002    Caller line at level 2
+0    80000003    Caller line at level 3
+VALUES
+0   End
+1 0 (Unresolved)
+2 0 (_NOT_Found)
+3 120 (start.S, mmatrix)
+
+
+EVENT_TYPE
 0 41000000 Object addresses for task 1.1
 VALUES
-1 completed.0 [0x006023d8-0x006023d8]
-2 __FRAME_END__ [0x004011f4-0x004011f3]
-3 __GNU_EH_FRAME_HDR [0x00401078-0x00401077]
-4 opal_uses_threads [0x006020a0-0x006020a0]
-5 orte_rml [0x006020c0-0x00602117]
-6 orte_name_wildcard [0x00602120-0x00602127]
-7 orte_process_info [0x00602140-0x0060224f]
-8 _IO_stdin_used [0x00401040-0x00401043]
-9 __bss_start [0x00602090-0x0060208f]
-10 orte_debug_flag [0x00602250-0x00602250]
-11 orte_odls [0x00602260-0x00602287]
-12 orte_exit_status [0x00602288-0x0060228b]
-13 _end [0x006023e0-0x006023df]
-14 stderr@@GLIBC_2.2.5 [0x006022a0-0x006022a7]
-15 orte_event_base_active [0x006022a8-0x006022a8]
-16 orte_event_base [0x006022c0-0x006022c7]
-17 orte_cmd_options [0x006022e0-0x006023d7]
+1 completed.0 [0x004036e8-0x004036e8]
+2 __FRAME_END__ [0x00401de4-0x00401de3]
+3 __GNU_EH_FRAME_HDR [0x00401cbc-0x00401cbb]
+4 ompi_mpi_int [0x004030e0-0x004032df]
+5 _IO_stdin_used [0x00401b60-0x00401b63]
+6 status [0x004036f0-0x00403707]
+7 __bss_start [0x004030c8-0x004030c7]
+8 ompi_mpi_double [0x004032e0-0x004034df]
+9 _end [0x00403708-0x00403707]
+10 ompi_mpi_comm_world [0x004034e0-0x004036df]
+11 stderr@GLIBC_2.2.5 [0x004036e0-0x004036e7]
 
 EVENT_TYPE
 9    40000018    Tracing mode:
